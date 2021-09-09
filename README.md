@@ -1,11 +1,17 @@
 # LQRLibyuv
 [《Android音视频——Libyuv使用实战》](https://juejin.im/post/5d8482a05188254c8b7bc7f2)。该库对libyuv进行封装，用于处理摄像头yuv图像数据。
 
-## 一、编译
+## 一、集成
 
-`Rebuild Project`后，提取so库与YuvUtil.java，放到自己的工程项目中，如下图所示：
+1. 添加 jitpack 仓库：`maven { url 'https://jitpack.io' }`
+2. 添加依赖：
 
-![](imgs/1_compile.png)
+```gradle
+dependencies {
+    implementation 'com.github.tiann:LQRLibyuv:Tag'
+}
+```
+
 
 ## 二、使用
 
