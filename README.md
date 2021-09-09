@@ -10,7 +10,7 @@ PS. fork 单纯是为了发布到 jitpack，见：[issue#7](https://github.com/G
 
 ```gradle
 dependencies {
-    implementation 'com.github.tiann:LQRLibyuv:Tag'
+    implementation 'com.github.tiann:LQRLibyuv:v1.0'
 }
 ```
 
